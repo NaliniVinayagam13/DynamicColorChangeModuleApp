@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etxtStatusBarColr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter the status bar color u want"
+        android:visibility="gone"/>
+
+    <com.example.dynamiccolorchange_java.widgets.CustomTextViewWithDrawable
+        android:id="@+id/txt_theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Theme color You like.."
+        android:drawableLeft="@drawable/order_status_passed"
+        android:drawablePadding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etxtToolBarColr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLength="7"
+        android:text="#"
+        android:digits="0123456789#qwertyuioplkjhgfdsazxcvbnm"
+        />
+    <com.example.dynamiccolorchange_java.widgets.CustomImageView
+        android:id="@+id/img_sample"
+        android:src="@drawable/ic_android_green_700_24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_sample_text"
+        android:text="Sample Placeholder Text"
+        android:textSize="14sp"
+        android:textColor="@drawable/text_color_selector"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.dynamiccolorchange_java.widgets.CustomButton
+        android:id="@+id/changeThemeButton"
+        android:text="Apply Color"
+        android:textColor="@drawable/text_color_selector"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.example.dynamiccolorchange_java.widgets.CustomButton
+        android:id="@+id/secondScreenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Second Screen"
+        android:textColor="@drawable/text_color_selector"
+        />
+
+</LinearLayout>

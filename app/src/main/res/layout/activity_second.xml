@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.example.dynamiccolorchange_java.widgets.CustomTextView
+        android:id="@+id/sample_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Screen is changing the color automatically.."
+        android:layout_margin="40dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <com.example.dynamiccolorchange_java.widgets.CustomImageView
+        android:src="@drawable/ic_android_green_700_24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+
+    <TextView
+        android:text="Placeholder"
+        android:textSize="14sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.example.dynamiccolorchange_java.widgets.CustomButton
+        android:id="@+id/btn_move"
+        android:text="Move to Fragment Screen"
+        android:textColor="@drawable/text_color_selector"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.example.dynamiccolorchange_java.widgets.CustomButton
+        android:id="@+id/changeThemeButton2"
+        android:text="Button2"
+        android:textColor="@drawable/text_color_selector"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.example.dynamiccolorchange_java.widgets.CustomButton
+        android:id="@+id/changeThemeButton3"
+        android:text="Button3"
+        android:textColor="@drawable/text_color_selector"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.example.dynamiccolorchange_java.widgets.CustomProgressBar
+        android:id="@+id/pgr_bar_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyle"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/measures_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        >
+
+        <com.example.dynamiccolorchange_java.widgets.CustomRadioButton
+            android:id="@+id/radio_measure_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="#673a4b"
+            android:checked="true"
+            android:text="Text 1"
+            />
+
+        <com.example.dynamiccolorchange_java.widgets.CustomRadioButton
+            android:id="@+id/radio_measure_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="#673a4b"
+            android:text="Text 2"
+            />
+    </RadioGroup>
+
+    <com.example.dynamiccolorchange_java.widgets.CustomFloatingActionButton
+        android:id="@+id/btn_request_help"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        android:layout_gravity="right"/>
+</LinearLayout>

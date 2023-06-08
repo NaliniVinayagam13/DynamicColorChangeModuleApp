@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/drawable/ic_launcher_background.xml" value="0.1185" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/drawable/text_color_selector.xml" value="0.1" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/layout/activity_first.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/layout/activity_main.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/layout/activity_second.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/DynamicColorChange_Java/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1185" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/drawable/ic_orange_back.xml" value="0.1185" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/layout/activity_base_fragment.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/layout/activity_first.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/layout/activity_second.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/nalini.v/AndroidStudioProjects/DynamicColorChangeModuleApp/app/src/main/res/layout/fragment_first.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
