@@ -25,6 +25,7 @@ public class CustomButton extends androidx.appcompat.widget.AppCompatButton {
 	@SuppressWarnings("deprecation")
 	@Override
 	public void setBackgroundDrawable(Drawable d) {
+
 		d.setTint(parseColor(ThemePreference.getThemeColor(getContext())));
 		Constants mCons = new Constants();
 		mCons.setTextColor(getContext(), this);
